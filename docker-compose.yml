@@ -7,7 +7,7 @@ services:
     build:
       context: .
       args:
-        RUNNER_VERSION: '2.292.0'
+        RUNNER_VERSION: '2.299.1'
     environment:
       GH_TOKEN: ${GH_TOKEN}
       GH_OWNER: ${GH_OWNER}
